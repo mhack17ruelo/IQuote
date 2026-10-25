@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.chrome-debug/
+data/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
