@@ -59,3 +59,15 @@ body{background:var(--ui-bg);color:var(--ui-text)}
 @media(max-width:900px){.panel{overflow-x:auto}.panel table{min-width:650px}}
 @media print{.recent-quotation-toolbar,.quote-pagination{display:none!important}}
 @media print{.heading .quotation-status-badge{display:none!important}}
+.demo-ribbon{min-height:56px;padding:10px 4vw;display:flex;align-items:center;gap:18px;background:#24352d;color:#fff}
+.demo-ribbon>div{flex:1;display:flex;align-items:baseline;gap:12px}
+.demo-ribbon strong{color:#e5c680;font-size:13px}
+.demo-ribbon span{color:#d1d8d2;font-size:12px}
+.demo-ribbon a{color:#f1d89f;font-size:12px;font-weight:650}
+.demo-ribbon button{border:1px solid #6e7c72;border-radius:5px;padding:8px 11px;background:transparent;color:white;font:inherit;font-size:12px;cursor:pointer}
+.demo-gate-note{padding:13px 15px;border:1px solid #ead8ad;border-radius:6px;background:#fbf6e8;color:#665321;font-size:13px;line-height:1.6}
+.demo-gate-note a,.auth-access a{color:#806127;font-weight:650}
+.auth-links{display:flex;justify-content:space-between;gap:12px}
+.auth-access{margin-top:20px;padding-top:15px;border-top:1px solid var(--ui-border);color:var(--ui-muted);font-size:12px;line-height:1.6}
+@media(max-width:650px){.demo-ribbon{padding:12px 14px;gap:10px;flex-wrap:wrap}.demo-ribbon>div{flex-basis:100%;display:block}.demo-ribbon span{display:block;margin-top:4px}.demo-ribbon a{margin-right:auto}}
+@media print{.demo-ribbon{display:none!important}}
